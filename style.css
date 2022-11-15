@@ -1,0 +1,45 @@
+label {
+    display: block;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+body {
+    margin: 0px;
+    background-color: #ccc;
+}
+
+input {
+    display: block;
+}
+
+.button-creator {
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+    grid-template-columns: 250px 1fr;
+}
+
+#controles {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    background-color: #eee;
+    padding: 1rem;
+    border: 4px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.css {
+    font-family: monospace;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.css span {
+    display: block;
+    margin-bottom: .5rem;
+    font-family: monospace, sans-serif;
+    font-size: 1.175rem;
+}
